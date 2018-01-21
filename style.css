@@ -1,0 +1,100 @@
+#landing {
+    background-image: url("/bg.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+@media screen and (max-width: 750px) {
+    #landing {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+.enlargeImageModalSource {
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+}
+p {
+    font-size: 18px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.colpadding {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 25px;
+}
+#title1 {
+    font-size: 54px;
+}
+.social {
+    width: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 42px !important;
+}
+.about {
+    margin-top: 100px;
+    background: #fafafa;
+}
+#sociallinks {
+    width: 100%;
+}
+#title2 {
+    font-size: 38px;
+}
+.shadow {
+    box-shadow: 0 4px 8px -6px black;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.fa-5x {
+    font-size: 12em !important;
+    padding-top: 10px;
+}
+.blackbox {
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.blackbox a {
+    color: white;
+}
+.blackbox a:visited {
+    color: white;
+}
+.blackbox a:hover {
+    color: white;
+}
+.blackbox a:focus {
+    color: white;
+}
+.blackbox a:active {
+    color: white;
+}
+.imggallery {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+img {
+    cursor: zoom-in;
+}
+.gallerytext {
+    padding-left: 20px;
+    padding-right: 20px;
+}
