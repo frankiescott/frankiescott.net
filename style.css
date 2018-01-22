@@ -1,8 +1,9 @@
 #landing {
-    background-image: url("/bg.jpg");
     height: 1000px;
-    background-repeat: no-repeat;
+    background-image: url("/bg.jpeg");
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     color: white;
     padding-top: 20%;
@@ -10,7 +11,7 @@
     padding-right: 30%;
     text-shadow: 2px 2px #000000;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 30px solid black;
 }
 @media screen and (max-width: 750px) {
     #landing {
@@ -46,11 +47,7 @@ p {
     padding-bottom: 10px;
     font-size: 42px !important;
 }
-.about {
-    margin-top: 100px;
-    background: #fafafa;
-}
-#sociallinks {
+.sociallinks {
     width: 100%;
 }
 #title2 {
@@ -61,30 +58,45 @@ p {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: black;
+    background-image: url("/bg2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+#footer {
+    background-color: black;
+    color: white;
+}
+.contentbg {
+    color: black;
+    border-right: 30px solid #A7D6E5;
+    border-left: 30px solid #A7D6E5;
+    border-bottom: 30px solid #A7D6E5;
+    background-color: rgb(243, 243, 243);
+}
 .fa-5x {
     font-size: 12em !important;
     padding-top: 10px;
 }
 .blackbox {
     padding: 20px 20px 20px 20px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .5);
 }
-.blackbox a {
+.sociallinks a {
     color: white;
 }
-.blackbox a:visited {
+.sociallinks a:visited {
     color: white;
 }
-.blackbox a:hover {
+.sociallinks a:hover {
     color: white;
 }
-.blackbox a:focus {
+.sociallinks a:focus {
     color: white;
 }
-.blackbox a:active {
+.sociallinks a:active {
     color: white;
 }
 .imggallery {
