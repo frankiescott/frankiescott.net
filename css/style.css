@@ -1,6 +1,6 @@
 #landing {
     height: 1000px;
-    background-image: url("/bg.jpeg");
+    background-image: url("/img/bg.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .colpadding {
     padding-left: 55px;
     padding-right: 55px;
